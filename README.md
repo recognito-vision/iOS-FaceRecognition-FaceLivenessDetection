@@ -31,7 +31,7 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
 - **Fully-offline:** Function without the need for an internet connection, ensuring reliability and data privacy.
 
 ## <img src="https://github.com/Recognito-Vision/Face-SDK-Android-Demo/assets/153883841/6d34f50e-df5a-4d2a-8ce6-a38b8203d3e6" alt="youtube" width="25">  Demo Video
-[<img src="https://github.com/Recognito-Vision/Face-SDK-Android-Demo/assets/153883841/532c2717-9249-491e-8206-bf16caadb18b" width="70%">](https://www.youtube.com/watch?v=9HM70PFa4lQ)
+[<img src="https://github.com/Recognito-Vision/Face-SDK-Android-Demo/assets/153883841/d17ee602-31a9-43e4-8d00-869e7456b2de" width="70%">](https://www.youtube.com/watch?v=9HM70PFa4lQ)
 
 Recognito Youtube Channel:   [youtube.com/@Recognito-Ltd](https://www.youtube.com/@Recognito-Ltd)
 <p align="center">
@@ -47,14 +47,14 @@ Recognito Youtube Channel:   [youtube.com/@Recognito-Ltd](https://www.youtube.co
 To use the Recognito SDK in your iOS project, follow these steps:
 #### 1. Add `facesdk.framework` into the project
 - Copy and add the SDK framework to your iOS project.
-  
-- Add the following dependency to your `build.gradle` and `settings.gradle` files:
-  https://github.com/Recognito-Vision/Face-SDK-Android-Demo/blob/601379c51970400b5c90972854b3468beef683ea/app/build.gradle#L50-L52
-  https://github.com/Recognito-Vision/Face-SDK-Android-Demo/blob/601379c51970400b5c90972854b3468beef683ea/settings.gradle#L17-L19
+  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/11d372e1-3c06-4efd-b8ed-f15c384dfe92" alt="facesdkframework" width="70%"><br/><br/>
+  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/1144eb7c-89b7-4e1c-857e-cd468f1f986f" alt="BridgingHeader" width="70%">
 
 #### 2. Application License (One-Time License)
-- For trial license, share your application ID.
-  https://github.com/Recognito-Vision/Face-SDK-Android-Demo/blob/601379c51970400b5c90972854b3468beef683ea/app/build.gradle#L6-L15
+- For trial license, share your Bundle ID.
+  
+  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/34f12b4f-144f-44eb-8cbe-ab957eab071c" alt="BundleID" width="70%">
+
   <div style="display: flex; align-items: center;">
     <a target="_blank" href="mailto:hello@recognito.vision"><img src="https://img.shields.io/badge/email-hassan@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://wa.me/+14158003112"><img src="https://img.shields.io/badge/whatsapp-+14158003112-blue.svg?logo=whatsapp " alt="www.recognito.vision"></a>
@@ -62,10 +62,10 @@ To use the Recognito SDK in your iOS project, follow these steps:
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://join.slack.com/t/recognito-workspace/shared_invite/zt-2d4kscqgn-"><img src="https://img.shields.io/badge/slack-recognito__workspace-blue.svg?logo=slack " alt="www.recognito.vision"></a>
   </div>
 
-- Add your license to `assets/license` file:
-  https://github.com/Recognito-Vision/Face-SDK-Android-Demo/blob/601379c51970400b5c90972854b3468beef683ea/app/src/main/assets/license?plain=1#L1-L5
+- Add your license to `license.txt` file:
+  https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/blob/6e30f27487ac8eafafe122c7ab918ee6ae9eb0a7/license.txt#L1-L5
 - Initialize SDK with license.
-  https://github.com/Recognito-Vision/Face-SDK-Android-Demo/blob/601379c51970400b5c90972854b3468beef683ea/app/src/main/java/com/bio/facerecognition/MainActivity.kt#L39-L47
+  https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/blob/6e30f27487ac8eafafe122c7ab918ee6ae9eb0a7/FaceDemo/ViewController.swift#L37-L50
 
   Initialization status codes:
   
@@ -79,91 +79,61 @@ To use the Recognito SDK in your iOS project, follow these steps:
   |-5|Init SDK Error|
 #### 3. APIs of SDK 
 ##### - Activate SDK
-```java
-public static native int setActivation(String var0);
+```objective-c
++(int)setActivation:(NSString*)license;
 ```
 Parameters
-- `var0`: The license string.
+- `license`: A string representing the license key required for activation.
 - Return Value: An integer representing the SDK activation status code.
 <br/>
 
 ##### - Initiate SDK
-```java
-public static native int init(AssetManager var0);
+```objective-c
++(int)initSDK;
 ```
 Parameters
-- `var0`: An instance of AssetManager used to access application assets.
 - Return Value: An integer representing the initialization status code.
 <br/>
 
-##### - Convert YUV camera frame to Bitmap image
-```java
-public static native Bitmap yuv2Bitmap(byte[] nv21, int width, int height, int orientation);
-```
-Parameters
-- `nv21`: Byte array representing the YUV image data in NV21 format.
-- `width`: Width of the image.
-- `height`: Height of the image.
-- `orientation`: Orientation of the image
-  
-  | Value | Orientation |
-  |:----:|----|
-  |1|No processing|
-  |2|Flip horizontally|
-  |3|Flip horizontally first and then flip vertically|
-  |4|vertical flip|
-  |5|transpose|
-  |6|Rotate 90° clockwise|
-  |7|Horizontal and vertical flip --> transpose|
-  |8|Rotate 90° counterclockwise|
-- Return Value: A Bitmap object representing the converted image.
-<br/>
-
 ##### - Detect Face
-```java
-public static native List<FaceBox> faceDetection(Bitmap var0, FaceDetectionParam var1);
+```objective-c
++(NSMutableArray*)faceDetection:(UIImage*)image;
 ```
 Parameters
-- `var0`: The Bitmap image.
-- `var1`: Parameters for face detection
-```java
-public class FaceDetectionParam {
-    public boolean check_liveness = false;
-    public int check_liveness_level = 0; // 0: more accurate model, 1: lighter model
-}
-```
-- Return Value: A list of FaceBox objects representing the detected faces.
-```java
-public class FaceBox {
-    public int x1;
-    public int y1;
-    public int x2;
-    public int y2;
-    public float liveness;
-    public float yaw;
-    public float roll;
-    public float pitch;
-}
+- `image`: The `UIImage` object representing the image in which faces will be detected.
+- Return Value: An `NSMutableArray` containing `FaceBox` about the detected faces.
+```objective-c
+@interface FaceBox : NSObject
+
+@property (nonatomic) int x1;
+@property (nonatomic) int y1;
+@property (nonatomic) int x2;
+@property (nonatomic) int y2;
+@property (nonatomic) float liveness;
+@property (nonatomic) float yaw;
+@property (nonatomic) float roll;
+@property (nonatomic) float pitch;
+@end
 ```
 <br/>
 
 ##### - Extract face feature
-```java
-public static native byte[] templateExtraction(Bitmap var0, FaceBox var1);
+```objective-c
++(NSData*)templateExtraction:(UIImage*)image faceBox:(FaceBox*)faceBox;
 ```
 Parameters
-- `var0`: The Bitmap image
-- `var1`: The bounding box (`FaceBox`) of the detected face.
-- Return Value: A byte array representing the extracted template from the face.
+- `image`: The `UIImage` object representing the source image from which the face template will be extracted.
+- `faceBox`: The `FaceBox` object representing the bounding box around the detected face.
+- Return Value: An `NSData` object containing the extracted face template data.
 <br/>
   
 ##### - Calculate similarity between two face features
-```java
-public static native float similarityCalculation(byte[] var0, byte[] var1);
+```objective-c
++(float)similarityCalculation:(NSData*)templates1 templates2:(NSData*)templates2;
 ```
 Parameters
-- `var0`: The byte array representing the first face template.
-- `var1`: The byte array representing the second face template.
+- `templates1`: An `NSData` object representing the first face template.
+- `templates2`: An `NSData` object representing the second face template.
 - Return Value: A float value representing the similarity score between the two face templates.
 <br/>
 
