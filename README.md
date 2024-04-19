@@ -1,5 +1,5 @@
 <a href="https://recognito.vision" style="display: flex; align-items: center;">
-    <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/b82f5c35-09d0-4064-a252-4bcd14e22407"/>
+    <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/b82f5c35-09d0-4064-a252-4bcd14e22407" alt="recognito.vision"/>
 </a><br/>
 
 # Face Recognition, Liveness Detection, Pose Estimation iOS SDK Demo
@@ -35,15 +35,15 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
 
 Recognito Youtube Channel:   [youtube.com/@Recognito-Ltd](https://www.youtube.com/@Recognito-Ltd)
 <p align="center">
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/44163563-4d5b-47bb-b58e-df01581209ce" width="16%" />
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/f29ca2b4-e55b-4098-aec0-581a05240ef8" width="16%" />
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/6fa1d72c-494d-43d9-9868-fcb5da0046e6" width="16%" />
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/a7668fcd-fb5c-4b9c-b08d-9da13e51ab1b" width="16%" />
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/2bc7a269-8653-4f5e-8291-fd5179f9c225" width="16%" />
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/3b0e1426-87e8-40fc-98f6-92ff4c699511" width="16%" />
+  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/44163563-4d5b-47bb-b58e-df01581209ce" width="16%"  alt="face recognition, liveness detection ios demo snap 1" />
+  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/f29ca2b4-e55b-4098-aec0-581a05240ef8" width="16%"  alt="face recognition, liveness detection ios demo snap 2" />
+  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/6fa1d72c-494d-43d9-9868-fcb5da0046e6" width="16%" alt="face recognition, liveness detection ios demo snap 3"/>
+  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/a7668fcd-fb5c-4b9c-b08d-9da13e51ab1b" width="16%" alt="face recognition, liveness detection ios demo snap 4"/>
+  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/2bc7a269-8653-4f5e-8291-fd5179f9c225" width="16%" alt="face recognition, liveness detection ios demo snap 5"/>
+  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/3b0e1426-87e8-40fc-98f6-92ff4c699511" width="16%" alt="face recognition, liveness detection ios demo snap 6"/>
 </p>
 
-## <img src="https://github.com/Recognito-Vision/Face-SDK-Android-Demo/assets/153883841/05f9ac6c-1224-46a9-8c74-04b8f8cfe5ab" alt="SDK API" width="25">  SDK Integration
+## <img src="https://github.com/Recognito-Vision/Face-SDK-Android-Demo/assets/153883841/05f9ac6c-1224-46a9-8c74-04b8f8cfe5ab" alt="face recognition, liveness detection iOS SDK API" width="25">  SDK Integration
 To use the Recognito SDK in your iOS project, follow these steps:
 #### 1. Add `facesdk.framework` into the project
 - Copy and add the SDK framework to your iOS project.
@@ -56,16 +56,16 @@ To use the Recognito SDK in your iOS project, follow these steps:
   <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/34f12b4f-144f-44eb-8cbe-ab957eab071c" alt="BundleID" width="70%">
 
   <div style="display: flex; align-items: center;">
-    <a target="_blank" href="mailto:hello@recognito.vision"><img src="https://img.shields.io/badge/email-hassan@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
+    <a target="_blank" href="mailto:hassan@recognito.vision"><img src="https://img.shields.io/badge/email-hassan@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://wa.me/+14158003112"><img src="https://img.shields.io/badge/whatsapp-+14158003112-blue.svg?logo=whatsapp " alt="www.recognito.vision"></a>
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://t.me/recognito_vision"><img src="https://img.shields.io/badge/telegram-@recognito__vision-blue.svg?logo=telegram " alt="www.recognito.vision"></a>
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://join.slack.com/t/recognito-workspace/shared_invite/zt-2d4kscqgn-"><img src="https://img.shields.io/badge/slack-recognito__workspace-blue.svg?logo=slack " alt="www.recognito.vision"></a>
   </div>
 
 - Add your license to `license.txt` file:
-  https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/blob/6e30f27487ac8eafafe122c7ab918ee6ae9eb0a7/license.txt#L1-L5
+  https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/blob/6e30f27487ac8eafafe122c7ab918ee6ae9eb0a7/license.txt#L1-L5
 - Initialize SDK with license.
-  https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/blob/6e30f27487ac8eafafe122c7ab918ee6ae9eb0a7/FaceDemo/ViewController.swift#L37-L50
+  https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/blob/6e30f27487ac8eafafe122c7ab918ee6ae9eb0a7/FaceDemo/ViewController.swift#L37-L50
 
   Initialization status codes:
   
@@ -141,7 +141,7 @@ Parameters
 For any questions, issues, or feature requests, please contact our support team.
 
 <div style="display: flex; align-items: center;">
-    <a target="_blank" href="mailto:hello@recognito.vision"><img src="https://img.shields.io/badge/email-hassan@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
+    <a target="_blank" href="mailto:hassan@recognito.vision"><img src="https://img.shields.io/badge/email-hassan@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://wa.me/+14158003112"><img src="https://img.shields.io/badge/whatsapp-+14158003112-blue.svg?logo=whatsapp " alt="www.recognito.vision"></a>
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://t.me/recognito_vision"><img src="https://img.shields.io/badge/telegram-@recognito__vision-blue.svg?logo=telegram " alt="www.recognito.vision"></a>
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://join.slack.com/t/recognito-workspace/shared_invite/zt-2d4kscqgn-"><img src="https://img.shields.io/badge/slack-recognito__workspace-blue.svg?logo=slack " alt="www.recognito.vision"></a>
