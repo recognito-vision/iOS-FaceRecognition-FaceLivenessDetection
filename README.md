@@ -30,30 +30,30 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
 - **Real-time:** Perform face recognition, liveness detection, and pose estimation with minimal latency.
 - **Fully-offline:** Function without the need for an internet connection, ensuring reliability and data privacy.
 
-## <img src="https://github.com/Recognito-Vision/Face-SDK-Android-Demo/assets/153883841/6d34f50e-df5a-4d2a-8ce6-a38b8203d3e6" alt="youtube" width="25">  Demo Video
-[<img src="https://github.com/Recognito-Vision/Face-SDK-Android-Demo/assets/153883841/d17ee602-31a9-43e4-8d00-869e7456b2de" width="70%">](https://www.youtube.com/watch?v=9HM70PFa4lQ)
+## <img src="https://github.com/Recognito-Vision/Android-FaceRecognition-FaceLivenessDetection/assets/153883841/6d34f50e-df5a-4d2a-8ce6-a38b8203d3e6" alt="youtube" width="25">  Demo Video
+[<img src="https://github.com/Recognito-Vision/Android-FaceRecognition-FaceLivenessDetection/assets/153883841/d17ee602-31a9-43e4-8d00-869e7456b2de" width="70%">](https://www.youtube.com/watch?v=9HM70PFa4lQ)
 
 Recognito Youtube Channel:   [youtube.com/@Recognito-Ltd](https://www.youtube.com/@Recognito-Ltd)
 <p align="center">
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/44163563-4d5b-47bb-b58e-df01581209ce" width="16%"  alt="face recognition, liveness detection ios demo snap 1" />
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/f29ca2b4-e55b-4098-aec0-581a05240ef8" width="16%"  alt="face recognition, liveness detection ios demo snap 2" />
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/6fa1d72c-494d-43d9-9868-fcb5da0046e6" width="16%" alt="face recognition, liveness detection ios demo snap 3"/>
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/a7668fcd-fb5c-4b9c-b08d-9da13e51ab1b" width="16%" alt="face recognition, liveness detection ios demo snap 4"/>
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/2bc7a269-8653-4f5e-8291-fd5179f9c225" width="16%" alt="face recognition, liveness detection ios demo snap 5"/>
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/3b0e1426-87e8-40fc-98f6-92ff4c699511" width="16%" alt="face recognition, liveness detection ios demo snap 6"/>
+  <img src="https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/assets/153883841/44163563-4d5b-47bb-b58e-df01581209ce" width="16%"  alt="face recognition, liveness detection ios demo snap 1" />
+  <img src="https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/assets/153883841/f29ca2b4-e55b-4098-aec0-581a05240ef8" width="16%"  alt="face recognition, liveness detection ios demo snap 2" />
+  <img src="https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/assets/153883841/6fa1d72c-494d-43d9-9868-fcb5da0046e6" width="16%" alt="face recognition, liveness detection ios demo snap 3"/>
+  <img src="https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/assets/153883841/a7668fcd-fb5c-4b9c-b08d-9da13e51ab1b" width="16%" alt="face recognition, liveness detection ios demo snap 4"/>
+  <img src="https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/assets/153883841/2bc7a269-8653-4f5e-8291-fd5179f9c225" width="16%" alt="face recognition, liveness detection ios demo snap 5"/>
+  <img src="https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/assets/153883841/3b0e1426-87e8-40fc-98f6-92ff4c699511" width="16%" alt="face recognition, liveness detection ios demo snap 6"/>
 </p>
 
-## <img src="https://github.com/Recognito-Vision/Face-SDK-Android-Demo/assets/153883841/05f9ac6c-1224-46a9-8c74-04b8f8cfe5ab" alt="face recognition, liveness detection iOS SDK API" width="25">  SDK Integration
+## <img src="https://github.com/Recognito-Vision/Android-FaceRecognition-FaceLivenessDetection/assets/153883841/05f9ac6c-1224-46a9-8c74-04b8f8cfe5ab" alt="face recognition, liveness detection iOS SDK API" width="25">  SDK Integration
 To use the Recognito SDK in your iOS project, follow these steps:
 #### 1. Add `facesdk.framework` into the project
 - Copy and add the SDK framework to your iOS project.
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/11d372e1-3c06-4efd-b8ed-f15c384dfe92" alt="facesdkframework" width="70%"><br/><br/>
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/1144eb7c-89b7-4e1c-857e-cd468f1f986f" alt="BridgingHeader" width="70%">
+  <img src="https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/assets/153883841/11d372e1-3c06-4efd-b8ed-f15c384dfe92" alt="facesdkframework" width="70%"><br/><br/>
+  <img src="https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/assets/153883841/1144eb7c-89b7-4e1c-857e-cd468f1f986f" alt="BridgingHeader" width="70%">
 
 #### 2. Application License (One-Time License)
 - For trial license, share your Bundle ID.
   
-  <img src="https://github.com/Recognito-Vision/Face-SDK-iOS-Demo/assets/153883841/34f12b4f-144f-44eb-8cbe-ab957eab071c" alt="BundleID" width="70%">
+  <img src="https://github.com/Recognito-Vision/iOS-FaceRecognition-FaceLivenessDetection/assets/153883841/34f12b4f-144f-44eb-8cbe-ab957eab071c" alt="BundleID" width="70%">
 
   <div style="display: flex; align-items: center;">
     <a target="_blank" href="mailto:hassan@recognito.vision"><img src="https://img.shields.io/badge/email-hassan@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
