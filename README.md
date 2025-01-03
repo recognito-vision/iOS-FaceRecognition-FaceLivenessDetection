@@ -72,7 +72,7 @@ To use the Recognito SDK in your iOS project, follow these steps:
   </div>
 
 - Add your license to `license.txt` file:
-  https://github.com/recognito-vision/iOS-FaceRecognition-FaceLivenessDetection/blob/6e30f27487ac8eafafe122c7ab918ee6ae9eb0a7/license.txt#L1-L5
+  https://github.com/recognito-vision/iOS-FaceRecognition-FaceLivenessDetection/blob/bef9e295a1fbff07d2a403227cacdc51ef6ff700/license.txt#L1-L5
 - Initialize SDK with license.
   https://github.com/recognito-vision/iOS-FaceRecognition-FaceLivenessDetection/blob/6e30f27487ac8eafafe122c7ab918ee6ae9eb0a7/FaceDemo/ViewController.swift#L37-L50
 
